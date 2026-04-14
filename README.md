@@ -73,7 +73,7 @@ The interface adapts across all screen sizes using modern CSS:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-org/fossee-booking-ui.git
+git clone https://github.com/Jaidhuria/Fossee-UI-UX-Enhancment
 
 # 2. Navigate into the project directory
 cd fossee-booking-ui
