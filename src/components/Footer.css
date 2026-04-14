@@ -1,0 +1,9 @@
+.footer {
+  padding: var(--sp-8) 0;
+  background: var(--clr-surface-alt);
+  border-top: 1px solid var(--clr-border-light);
+  margin-top: auto;
+  text-align: center;
+  color: var(--clr-text-muted);
+  font-size: var(--fs-sm);
+}

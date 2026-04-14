@@ -1,0 +1,25 @@
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-12);
+}
+
+.dashboard-row-card {
+  border-left: 4px solid var(--clr-border-light);
+}
+
+.dashboard-row-card:hover {
+  border-left-color: var(--clr-primary);
+}
+
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
