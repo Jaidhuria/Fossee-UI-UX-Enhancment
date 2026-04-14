@@ -116,7 +116,7 @@ Enhancing the UI while **keeping the original project structure intact** was the
 
 | Login Page | Registration Form | Responsive View |
 |---|---|---|
-| ![Login](Screenshots/Screenshot%202026-04-14%20182010.png) | ![Register](Screenshots/Screenshot%202026-04-14%20182040.png) | ![Responsive](Screenshots/Screenshot%202026-04-14%20182053.png) |
+| ![Login](screenshots/Screenshot%202026-04-14%20182010.png) | ![Register](screenshots/Screenshot%202026-04-14%20182040.png) | ![Responsive](screenshots/Screenshot%202026-04-14%20182053.png) |
 
 ---
 

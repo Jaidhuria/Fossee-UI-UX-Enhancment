@@ -12,7 +12,7 @@ export default function Login() {
   const { addToast } = useToast();
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault(); // BUG: Page will reload on submit
     const res = login(username, password);
     if (res.success) {
       addToast('Welcome back!', 'success');

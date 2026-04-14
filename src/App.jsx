@@ -32,7 +32,7 @@ export default function App() {
         <Route path="/workshops/types/:id" element={<WorkshopTypeDetails />} />
 
         {/* Protected Routes */}
-        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path="/dashbaord" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} /> {/* BUG: Typo in route path */}
         <Route path="/workshops/:id" element={<ProtectedRoute><WorkshopDetails /></ProtectedRoute>} />
         <Route path="/workshops/propose" element={<ProtectedRoute><ProposeWorkshop /></ProtectedRoute>} />
         <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
